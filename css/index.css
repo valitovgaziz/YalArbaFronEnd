@@ -1,0 +1,132 @@
+@font-face {
+    font-family: 'Jura-VariableFont_wght';
+    src: url("../fonts/jura.ttf");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Jura-VariableFont_wght, sans-serif;
+    height: 100%;
+}
+
+.main {
+    margin: 2rem auto 2rem auto;
+    display: flex;
+    flex-flow: column;
+    width: 80%;
+}
+
+.top {
+    display: flex;
+    margin: 0;
+    height: fit-content;
+    justify-content: space-between;
+}
+
+.yalArba {
+}
+
+.menu {
+    display: flex;
+    height: fit-content;
+    justify-content: end;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: end;
+}
+
+.profile {
+
+}
+
+#profile {
+    width: 2rem;
+    height: 2rem;
+}
+
+#inner {
+    width: 2rem;
+    height: 2rem;
+}
+
+.settings {
+    flex-direction: column;
+}
+
+#settings {
+    width: 2rem;
+    height: 2rem;
+}
+
+.middle {
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.search {
+    display: flex;
+    justify-self: center;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    height: fit-content;
+}
+
+
+#logo {
+    display: flex;
+    width: 4rem;
+    height: 4rem;
+}
+
+#search_input {
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+    border-radius: 1.5rem;
+    height: 2.5rem;
+    text-align: center;
+    max-width: available;
+    width: 30rem;
+    min-width: fit-content;
+}
+
+
+#search_input::placeholder {
+    padding: 1rem;
+}
+
+#search_button {
+    display: flex;
+    background-color: #00000000;
+    border-style: none;
+    width: 4rem;
+    height: 4rem;
+    background-image: url("../images/search.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.text {
+    height: fit-content;
+}
+
+.text p {
+    margin: 1rem;
+}
+
+.addObject {
+    height: fit-content;
+}
+
+
+.bottom {
+    display: flex;
+    justify-content: space-around;
+    height: 10%;
+}

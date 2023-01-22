@@ -1,0 +1,37 @@
+@font-face {
+    font-family: 'jura';
+    src: url("../fonts/jura.ttf");
+}
+
+* {
+    font-family: jura, sans-serif;
+}
+
+.main_requisites {
+    width: 80%;
+    margin: 5rem auto 5rem auto;
+    display: flex;
+    flex-flow: column;
+}
+
+a {
+    text-decoration: none;
+}
+
+._back_button {
+    text-decoration: none;
+    display: flex;
+    width: fit-content;
+    background-color: #44c767;
+    border-radius:1rem;
+    border: 1px solid #18ab29;
+    cursor: pointer;
+    color:#ffffff;
+    font-size: 1.3rem;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    text-shadow: 0px 1px 0px #2f6627;
+}
+
+._back_button:hover {
+    background-color:#5cbf2a;
+}
