@@ -3,11 +3,8 @@ window.onload = function () {
         window.location.replace("pages/searchResult.html");
     };
 
-    let searchForm = document.querySelector('#search_form');
-    searchForm.addEventListener(
-        "submit",
-        search_request
-    );
+    document.querySelector('#search_form')
+        .addEventListener('submit', search_request)
 
     let menuToggle = document.querySelector('.menuToggle');
     let navigation = document.querySelector('.navigation');

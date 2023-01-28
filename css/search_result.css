@@ -21,6 +21,13 @@ html, body, .main_search_page_div {
     align-content: space-around;
 }
 
+.menu_in_search_page {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background: #ff8b8b;
+}
+
 .search {
     display: flex;
     justify-self: center;
@@ -114,10 +121,8 @@ html, body, .main_search_page_div {
     align-self: center;
     text-decoration: none;
     cursor: pointer;
-    color:#ffffff;
     font-size: 0.9rem;
     padding:1rem 2rem;
-    text-decoration: none;
 }
 
 ._back_button:hover {

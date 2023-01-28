@@ -3,15 +3,13 @@ a {
 }
 
 .navigation {
-    position: absolute;
-    top: 1rem;
-    right: 1rem;
+    position: relative;
     box-sizing: border-box;
     border-radius: 3rem;
     height: 5rem;
     width: 10rem;
     display: flex;
-    background-color: #d5f8f2;
+    background-color: #e9f8f3;
     justify-content: space-between;
     transition: height 0.5s, width 0.5s;
     transition-delay: 0s, 0.75s;
@@ -133,9 +131,7 @@ a {
 }
 
 .menu_ul li a:hover {
-    /*padding: 0.5rem 1rem 0.5rem 0;*/
-    /*width: fit-content;*/
-    /*box-shadow: inset 0px 0px 6px 12px rgba(0,0,0,0.1);*/
+    width: fit-content;
     color: #489a1d;
 }
 
