@@ -25,6 +25,12 @@
 }
 
 .yalArba {
+    display: flex;
+    flex-flow: column;
+}
+
+#arba {
+    height: 3rem;
 }
 
 .menu {
@@ -54,7 +60,24 @@
     flex-direction: column;
 }
 
-#settings {
+#settings_button {
+    appearance: none;
+    border: 0;
+    border-radius: 1rem;
+    background: rgba(255, 255, 255, 0);
+    cursor: pointer;
+}
+
+#settings_button:hover {
+    background-color: #5cbf2a;
+}
+
+#settings_button:focus {
+    outline: none;
+    box-shadow: 0 0 0 4px #ff8b8b;
+}
+
+#settings_image {
     width: 2rem;
     height: 2rem;
 }
@@ -122,11 +145,4 @@
 
 .addObject {
     height: fit-content;
-}
-
-
-.bottom {
-    display: flex;
-    justify-content: space-around;
-    height: 10%;
 }

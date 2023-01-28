@@ -1,0 +1,17 @@
+.menu_list {
+    background-color: #ff8b8b;
+    position: relative;
+    width: fit-content;
+    height: fit-content;
+    top: 20px;
+    right: 5rem;
+    overflow: visible;
+}
+
+.menu_list ul {
+    height: fit-content;
+}
+
+.menu_list li {
+    margin: 1rem;
+}
