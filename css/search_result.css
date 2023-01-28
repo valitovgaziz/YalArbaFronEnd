@@ -5,12 +5,21 @@
 
 * {
     font-family: Jura-VariableFont_wght, sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
-div {
-    margin: 1rem;
+html, body, .main_search_page_div {
+    height: 100%;
 }
 
+.main_search_page_div {
+    max-width: 70%;
+    margin: 5rem auto 0 auto;
+    display: flex;
+    flex-flow: column;
+    align-content: space-around;
+}
 
 .search {
     display: flex;
@@ -19,6 +28,7 @@ div {
     justify-items: center;
     align-items: center;
     height: fit-content;
+    margin-bottom: 1rem;
 }
 
 
@@ -63,6 +73,9 @@ div {
 
 .object {
     width: available;
+    height: 5rem;
+    overflow: hidden;
+    margin: 1rem 1rem;
     display: flex;
     flex-flow: row;
     justify-content: space-around;
@@ -96,14 +109,15 @@ div {
     background-color: #44c767;
     border-radius:2rem;
     border: 1px solid #18ab29;
-    display: inline-block;
+    display: flex;
+    width: fit-content;
+    align-self: center;
+    text-decoration: none;
     cursor: pointer;
     color:#ffffff;
-    font-family: Jura-VariableFont_wght;
     font-size: 0.9rem;
     padding:1rem 2rem;
     text-decoration: none;
-    text-shadow: 0px 1px 0px #2f6627;
 }
 
 ._back_button:hover {

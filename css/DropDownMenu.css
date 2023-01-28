@@ -1,13 +1,17 @@
+a {
+    text-decoration: none;
+}
+
 .navigation {
-    position: relative;
+    position: absolute;
     top: 1rem;
     right: 1rem;
     box-sizing: border-box;
-    border-radius: 5rem;
+    border-radius: 3rem;
     height: 5rem;
     width: 10rem;
     display: flex;
-    background-color: #8bffea;
+    background-color: #d5f8f2;
     justify-content: space-between;
     transition: height 0.5s, width 0.5s;
     transition-delay: 0s, 0.75s;
@@ -16,7 +20,7 @@
 
 .navigation.active {
     width: 25rem;
-    height: 35rem;
+    height: 20rem;
     transition: width 0.5s, height 0.5s;
     transition-delay: 0s, 0.75s;
 }
@@ -53,8 +57,7 @@
     overflow: hidden;
     background: rgba(0, 0, 0, 0);
     border-radius: 50%;
-    border: solid #fff 10px;
-    box-shadow: 0 1rem 1.5rem rgba(0, 0, 0, 0.1);
+    border: solid #fff 0.5rem;
 }
 
 .navigation .userBX .imgUser img {
@@ -109,12 +112,33 @@
 .main_menu {
     position: absolute;
     width: 100%;
-    height: calc(100% - 5rem);
+    height: fit-content;
     margin: 5rem 0 0 0;
     padding: 1rem 0 0 3rem;
 }
 
-.menu_ul {
-    height: fit-content;
+.menu_ul li {
+    height: 1.5rem;
     font-size: 1.5rem;
+    list-style: none;
+    margin: 1rem;
+}
+
+.menu_ul li a {
+    display: flex;
+    align-items: center;
+    font-size: 1em;
+    gap: 1rem;
+    color: #555;
+}
+
+.menu_ul li a:hover {
+    /*padding: 0.5rem 1rem 0.5rem 0;*/
+    /*width: fit-content;*/
+    /*box-shadow: inset 0px 0px 6px 12px rgba(0,0,0,0.1);*/
+    color: #489a1d;
+}
+
+.menu_ul li a ion-icon {
+    font-size: 2em;
 }
