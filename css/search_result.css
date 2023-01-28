@@ -23,9 +23,10 @@ html, body, .main_search_page_div {
 
 .menu_in_search_page {
     width: 100%;
+    max-height: 5rem;
     display: flex;
     justify-content: space-between;
-    background: #ff8b8b;
+    margin: 0 0 2rem 0;
 }
 
 .search {
