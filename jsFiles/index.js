@@ -4,7 +4,10 @@ window.onload = function () {
     };
 
     document.querySelector('#search_form')
-        .addEventListener('submit', search_request)
+        .addEventListener('submit', search_request);
+
+    document.querySelector('#search_button')
+        .addEventListener('click', search_request);
 
     let menuToggle = document.querySelector('.menuToggle');
     let navigation = document.querySelector('.navigation');
