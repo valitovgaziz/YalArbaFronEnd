@@ -1,14 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>yalArba</title>
-  <link rel="stylesheet" href="../css/object_page.css">
+    <meta charset="UTF-8">
+    <title>yalArba</title>
+    <link rel="stylesheet" href="../css/object_page.css">
     <link rel="stylesheet" href="../css/general_CSS">
-  <script src="../jsFiles/object_page.js"></script>
+    <link rel="stylesheet" href="../css/backButton.css">
+    <link rel="stylesheet" href="../css/DropDownMenu.css">
+    <link rel="stylesheet" href="../css/bottom.css">
+    <script src="../jsFiles/object_page.js"></script>
 </head>
 <body>
-<div class="object_main_div">
+<div class="object_main_page_div">
+    <div class="menu_in_object_page">
+        <div>
+            <a href="../index.html">
+                <div class="_back_button">
+                    На главную
+                </div>
+            </a>
+        </div>
+        <div class="navigation">
+            <div class="userBX">
+                <div class="imgUser">
+                    <img src="../images/profile.png" alt="GazizFoto">
+                </div>
+                <p class="userName">User Name</p>
+            </div>
+            <div class="menuToggle"></div>
+            <div class="main_menu">
+                <ul class="menu_ul">
+                    <li><a href="#">
+                        <ion-icon name="person-outline"></ion-icon>
+                        My Profile
+                    </a></li>
+                    <li><a href="#">
+                        <ion-icon name="log-in-outline"></ion-icon>
+                        Log in
+                    </a></li>
+                    <li><a href="#">
+                        <ion-icon name="person-add-outline"></ion-icon>
+                        Registration
+                    </a></li>
+                    <li><a href="#">
+                        <ion-icon name="help-outline"></ion-icon>
+                        Help & Support
+                    </a></li>
+                    <li><a href="#">
+                        <ion-icon name="log-out-outline"></ion-icon>
+                        Logout
+                    </a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
     <div class="info">
 
     </div>
@@ -29,6 +74,28 @@
     </div>
     <div class="footer">
 
+    </div>
+    <div class="bottom">
+        <div id="about_ass">
+            <a href="../pages/about.html">
+                <p>О нас</p>
+            </a>
+        </div>
+        <div>
+            <a href="../pages/vacation.html">
+                <p>Вакансии</p>
+            </a>
+        </div>
+        <div>
+            <a href="../pages/recuisites.html">
+                <p>Реквизиты</p>
+            </a>
+        </div>
+        <div>
+            <a href="../pages/contacts.html">
+                <p>Контакты</p>
+            </a>
+        </div>
     </div>
 </div>
 </body>
