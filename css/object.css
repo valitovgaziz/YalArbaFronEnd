@@ -1,0 +1,33 @@
+.object {
+    width: available;
+    height: 5rem;
+    overflow: hidden;
+    margin: 1rem 1rem;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #acffff;
+}
+
+.list_services {
+    display: flex;
+    width: 20%;
+}
+
+.short_description {
+    display: flex;
+    width: 60%;
+}
+
+.object_image {
+    width: 20%;
+    display: flex;
+}
+
+.list_services, .short_description, .object_image {
+    border-color: #d7f6c9;
+    border-style: solid;
+    border-width: 1px;
+}
