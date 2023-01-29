@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'Jura-VariableFont_wght';
     src: url("../fonts/jura.ttf");
-}
+
 
 * {
     margin: 0;
@@ -89,14 +89,11 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-
 }
 
 .search {
     display: flex;
-    justify-self: center;
-    justify-content: center;
-    justify-items: center;
+    flex-flow: row;
     align-items: center;
     height: fit-content;
 }
@@ -106,6 +103,11 @@
     display: flex;
     width: 4rem;
     height: 4rem;
+}
+
+#search_form {
+    margin: 0 1rem 0 1rem;
+    height: fit-content;
 }
 
 #search_input {
@@ -136,14 +138,14 @@
     background-repeat: no-repeat;
 }
 
-.text {
+.middle .text {
     height: fit-content;
 }
 
-.text p {
+.middle .text p {
     margin: 1rem;
 }
 
-.addObject {
+.middle .addObject {
     height: fit-content;
 }
