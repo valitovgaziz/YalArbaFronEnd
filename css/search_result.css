@@ -26,7 +26,7 @@ html, body, .main_search_page_div {
     max-height: 5rem;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    height: fit-content;
     margin: 0 0 2rem 0;
 }
 
