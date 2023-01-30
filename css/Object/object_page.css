@@ -27,3 +27,8 @@
     align-items: center;
 }
 
+.price {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
