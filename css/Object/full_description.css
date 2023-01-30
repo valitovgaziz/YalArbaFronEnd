@@ -1,0 +1,10 @@
+
+.full_description {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+.full_description h3 {
+    width: fit-content;
+}

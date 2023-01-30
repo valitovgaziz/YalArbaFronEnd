@@ -2,3 +2,7 @@
     font-family: 'Jura-VariableFont_wght';
     src: url("../fonts/jura.ttf");
 }
+
+* {
+    font-size: 1rem;
+}

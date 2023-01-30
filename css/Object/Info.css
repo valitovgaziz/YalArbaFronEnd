@@ -1,0 +1,20 @@
+.info {
+    height: fit-content;
+    min-height: 5rem;
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: column;
+}
+
+.info .nameObject, .rateObject, .typeObject, .stateObject,
+.dateStart, .dateEnd, .availabilityScore, .servicesObject,
+.workLoad, .geoPoint {
+    margin: 0.3rem;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    text-align: center;
+    border-bottom: 1px solid #b7b7b7;
+    border-radius: 1rem;
+    padding: 0 1rem 0 1rem;
+}

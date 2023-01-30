@@ -1,0 +1,15 @@
+.photo {
+    height: 20rem;
+    max-height: 20rem;
+    margin-top: 1rem;
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    overflow: hidden;
+    border-radius: 1rem;
+    width: 100%;
+}
+
+.photo #photoId {
+    height: 100%;
+}

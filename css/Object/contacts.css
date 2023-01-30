@@ -1,0 +1,22 @@
+
+
+.contactsObject {
+    height: fit-content;
+    min-height: 10rem;
+    display: flex;
+    flex-flow: column;
+    align-content: space-around;
+    align-items: center;
+}
+
+.contactsObject h3 {
+    width: fit-content;
+}
+
+.contactsObject div {
+    width: fit-content;
+}
+
+.contactsObject a:hover {
+    color: #d3dc86;
+}

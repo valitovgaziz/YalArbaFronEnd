@@ -1,0 +1,9 @@
+.Fightback {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+.Fightback h3 {
+    width: fit-content;
+}
