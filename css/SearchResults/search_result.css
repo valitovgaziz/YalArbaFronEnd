@@ -1,24 +1,12 @@
 @font-face {
     font-family: 'Jura-VariableFont_wght';
-    src: url("../fonts/jura.ttf");
+    src: url("../../fonts/jura.ttf");
 }
 
 * {
     font-family: Jura-VariableFont_wght, sans-serif;
     margin: 0;
     padding: 0;
-}
-
-html, body, .main_search_page_div {
-    height: 100%;
-}
-
-.main_search_page_div {
-    max-width: 70%;
-    margin: 5rem auto 0 auto;
-    display: flex;
-    flex-flow: column;
-    align-content: space-around;
 }
 
 .menu_in_search_page {
@@ -64,16 +52,6 @@ html, body, .main_search_page_div {
     padding: 1rem;
 }
 
-#search_button {
-    display: flex;
-    background-color: rgba(0, 0, 0, 0);
-    border-style: none;
-    width: 4rem;
-    height: 4rem;
-    background-image: url("../images/search.png");
-    background-size: contain;
-    background-repeat: no-repeat;
-}
 
 .results {
     display: flex;

@@ -1,21 +1,9 @@
-@font-face {
-    font-family: 'Jura-VariableFont_wght';
-    src: url("../fonts/jura.ttf");
-}
-
 * {
-    font-family: Jura-VariableFont_wght, sans-serif;
     font-weight: 700;
 }
 
-.main {
+.vacation_page {
     margin: 3rem;
-}
-
-body {
-    display: flex;
-    flex-direction: column;
-    font-size: 1.5rem;
 }
 
 .head {
@@ -28,10 +16,11 @@ body {
 
 .head_description {
     padding: 1rem;
+    margin: 1rem;
     border-radius: 3rem;
     display: flex;
     flex-direction: column;
-    width: 50rem;
+    width: 100%;
     background-color: #54ffe9;
 }
 

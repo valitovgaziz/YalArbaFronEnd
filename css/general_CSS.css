@@ -3,6 +3,21 @@
     src: url("../fonts/jura.ttf");
 }
 
+@font-face {
+    font-family: 'verdana';
+    src: url("../fonts/Verdana.ttf");
+}
+
 * {
-    font-size: 1rem;
+    font-family: Jura-VariableFont_wght, sans-serif;
+}
+
+.object_main_page_div, .main_search_page_div, .about_main_div,
+.vacation_page, .requisites_page, .index_page, .contacts_page {
+    min-width: 300px;
+    max-width: 700px;
+    margin: 3rem auto 3rem auto;
+    border: 1px solid;
+    border-radius: 2rem;
+    padding: 1rem;
 }
