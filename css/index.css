@@ -106,40 +106,14 @@ html, body {
     height: fit-content;
 }
 
-#search_input {
-    display: flex;
-    align-items: center;
-    font-size: 1.5rem;
-    border-radius: 1.5rem;
-    height: 2.5rem;
-    text-align: center;
-    max-width: available;
-    width: 30rem;
-    min-width: fit-content;
-}
-
-
-#search_input::placeholder {
-    padding: 1rem;
-}
-
-#search_button {
-    display: flex;
-    background-color: #00000000;
-    border-style: none;
-    width: 4rem;
-    height: 4rem;
-    background-image: url("../images/search.png");
-    background-size: contain;
-    background-repeat: no-repeat;
-}
 
 .middle .text {
     height: fit-content;
 }
 
-.middle .text p {
+.middle .text #text_description {
     margin: 1rem;
+    width: 30rem;
 }
 
 .middle .addObject {

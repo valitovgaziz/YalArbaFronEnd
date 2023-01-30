@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="../css/GreenButton.css">
     <link rel="stylesheet" href="../css/SearchResults/object.css">
     <link rel="stylesheet" href="../css/general_CSS.css">
+    <link rel="stylesheet" href="../css/searchRow.css">
     <script src="../jsFiles/dropDownMenu.js"></script>
     <script src="../jsFiles/search_result.js"></script>
     <link rel="shortcut icon"  href="../images/littleLogo.png" type="image/png">
@@ -61,16 +62,17 @@
     </div>
     <div class="search">
         <div id="logo">
-            <img src="../images/logo150x150.png"/>
+            <img src="../images/logo150x150.png" alt="logo150"/>
         </div>
         <form action="searchResult.html" id="search_form" name="search_request" target="_self">
+            <label for="search_input">Строка для поиска мест отдыха</label>
             <input id="search_input"
-                   type="text"
-                   autofocus
-                   placeholder="введите поисковый запрос">
+                                                     type="text"
+                                                     autofocus
+                                                     placeholder="введите поисковый запрос">
         </form>
         <div>
-            <button id="search_button" onclick="search_request_from_results()"/>
+            <button id="search_button" onclick="search_request_from_results()"></button>
         </div>
     </div>
     <div class="results">
