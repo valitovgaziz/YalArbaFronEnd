@@ -7,7 +7,7 @@ html, body {
 }
 
 .index_page {
-    height: 100%;
+    height: 90%;
     display: flex;
     flex-flow: column;
     justify-content: space-between;
@@ -30,92 +30,29 @@ html, body {
     height: 3rem;
 }
 
-.menu {
-    display: flex;
-    height: fit-content;
-    justify-content: end;
-    flex-wrap: wrap;
-    flex-direction: column;
-    align-items: end;
-}
-
-.profile {
-
-}
-
-#profile {
-    width: 2rem;
-    height: 2rem;
-}
-
-#inner {
-    width: 2rem;
-    height: 2rem;
-}
-
-.settings {
-    flex-direction: column;
-}
-
-#settings_button {
-    appearance: none;
-    border: 0;
-    border-radius: 1rem;
-    background: rgba(255, 255, 255, 0);
-    cursor: pointer;
-}
-
-#settings_button:hover {
-    background-color: #5cbf2a;
-}
-
-#settings_button:focus {
-    outline: none;
-    box-shadow: 0 0 0 4px #ff8b8b;
-}
-
-#settings_image {
-    width: 2rem;
-    height: 2rem;
-}
-
 .middle {
-    height: 80%;
+    background: #555555;
+    height: fit-content;
     display: flex;
+    flex-flow: column;
     align-items: center;
-    justify-content: center;
-    flex-direction: column;
+    justify-content: end;
 }
 
 .search {
+    background: #ff8b8b;
     display: flex;
     flex-flow: row;
     align-items: center;
     height: fit-content;
 }
 
-
-#logo {
-    display: flex;
-    width: 4rem;
-    height: 4rem;
-}
-
-#search_form {
-    margin: 0 1rem 0 1rem;
+.addObject {
+    margin: 3rem;
+    width: fit-content;
     height: fit-content;
-}
-
-
-.middle .text {
-    height: fit-content;
-}
-
-.middle .text #text_description {
-    margin: 1rem;
-    width: 30rem;
-}
-
-.middle .addObject {
-    height: fit-content;
+    border: 1px solid black;
+    padding: 0.2rem;
+    border-radius: 1rem;
+    background: #8bffea;
 }
