@@ -6,6 +6,13 @@
     flex-flow: row;
     border: 1px solid #484848;
     border-radius: 1rem 0 1rem 0;
+    margin: 1rem 0 1rem 0;
+}
+
+.object:hover {
+    -webkit-box-shadow: 0 0 1rem 0.5rem rgba(158,156,158,0.3);
+    -moz-box-shadow: 0 0 1rem 0.5rem rgba(158,156,158,0.3);
+    box-shadow: 0 0 1rem 0.5rem rgba(158,156,158,0.3);
 }
 
 .object .object_link {

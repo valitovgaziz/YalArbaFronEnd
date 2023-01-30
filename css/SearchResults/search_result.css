@@ -12,7 +12,8 @@ html, body {
 }
 
 .search_result_page {
-    height: 90%;
+    min-height: 90%;
+    height: fit-content;
     display: flex;
     flex-flow: column;
     justify-content: space-between;
