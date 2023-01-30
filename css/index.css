@@ -11,14 +11,17 @@ html, body {
     display: flex;
     flex-flow: column;
     justify-content: space-between;
+    align-items: center;
 }
 
 .top {
+    width: 100%;
     display: flex;
+    flex-flow: row;
+    justify-content: space-between;
     margin: 0;
     height: fit-content;
     max-height: 5rem;
-    justify-content: space-between;
 }
 
 .yalArba {
@@ -31,16 +34,14 @@ html, body {
 }
 
 .middle {
-    background: #555555;
     height: fit-content;
+    width: fit-content;
     display: flex;
     flex-flow: column;
     align-items: center;
-    justify-content: end;
 }
 
 .search {
-    background: #ff8b8b;
     display: flex;
     flex-flow: row;
     align-items: center;
@@ -48,11 +49,8 @@ html, body {
 }
 
 .addObject {
-    margin: 3rem;
+    position: relative;
+    top: 5rem;
     width: fit-content;
     height: fit-content;
-    border: 1px solid black;
-    padding: 0.2rem;
-    border-radius: 1rem;
-    background: #8bffea;
 }

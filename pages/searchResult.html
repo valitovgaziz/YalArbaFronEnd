@@ -12,13 +12,13 @@
     <link rel="stylesheet" href="../css/searchRow.css">
     <script src="../jsFiles/dropDownMenu.js"></script>
     <script src="../jsFiles/search_result.js"></script>
-    <link rel="shortcut icon"  href="../images/littleLogo.png" type="image/png">
+    <link rel="shortcut icon" href="../images/littleLogo.png" type="image/png">
 </head>
 <body>
 <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
 <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-<div class="main_search_page_div">
-    <div class="menu_in_search_page">
+<div class="search_result_page">
+    <div class="top_menu">
         <div>
             <a href="../index.html">
                 <div class="_back_button">
@@ -61,19 +61,13 @@
         </div>
     </div>
     <div class="search">
-        <div id="logo">
-            <img src="../images/logo150x150.png" alt="logo150"/>
-        </div>
         <form action="searchResult.html" id="search_form" name="search_request" target="_self">
             <label for="search_input">Строка для поиска мест отдыха</label>
             <input id="search_input"
-                                                     type="text"
-                                                     autofocus
-                                                     placeholder="введите поисковый запрос">
+                   type="text"
+                   autofocus
+                   placeholder="введите поисковый запрос">
         </form>
-        <div>
-            <button id="search_button" onclick="search_request_from_results()"></button>
-        </div>
     </div>
     <div class="results">
         <div class="object">

@@ -6,10 +6,11 @@ a {
     position: relative;
     box-sizing: border-box;
     border-radius: 3rem;
+    border: 1px solid #afafaf;
+    background: white;
     height: 5rem;
     width: 10rem;
     display: flex;
-    background-color: #e9f8f3;
     justify-content: space-between;
     transition: height 0.5s, width 0.5s;
     transition-delay: 0s, 0.75s;
