@@ -10,15 +10,15 @@
 <path d="M261.104 292.897C261.104 292.897 279.369 311.162 379.811 411.604C390.212 425.208 392.603 433.938 391.682 451.173C390.602 465.973 387.687 473.691 379.811 486.785C361.547 506.405 348.533 510.701 320.458 506.57C284.039 500.146 288.802 459.087 292.759 451.173C296.716 443.259 306.381 435.271 320.457 439.302" stroke="#30D5C8" stroke-width="15" stroke-linecap="round"/>
 </g>
 <defs>
-<filter id="filter0_d_311_16" x="0.5" y="0.499786" width="523" height="523" color-interpolation-filters="sRGB">
+<filter id="filter0_d_311_16" x="0.5" y="0.499786" width="523" height="523" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
 <feFlood flood-opacity="0" result="BackgroundImageFix"/>
-<feColorMatrix in="SourceAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
 <feOffset dy="4"/>
 <feGaussianBlur stdDeviation="2"/>
 <feComposite in2="hardAlpha" operator="out"/>
-<feColorMatrix values="0 0 0 0 0.188235 0 0 0 0 0.835294 0 0 0 0 0.784314 0 0 0 0.24 0"/>
-<feBlend in2="BackgroundImageFix" result="effect1_dropShadow_311_16"/>
-<feBlend in="SourceGraphic" in2="effect1_dropShadow_311_16" result="shape"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.188235 0 0 0 0 0.835294 0 0 0 0 0.784314 0 0 0 0.24 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_311_16"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_311_16" result="shape"/>
 </filter>
 </defs>
 </svg>
