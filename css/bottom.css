@@ -10,7 +10,7 @@
 .bottom div {
     height: fit-content;
     border-bottom: 1px solid #798c62;
-    padding: 0.3rem;
+    padding: 0 1rem 0 1rem;
     border-radius: 1rem;
 }
 

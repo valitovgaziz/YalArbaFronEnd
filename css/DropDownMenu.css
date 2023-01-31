@@ -12,6 +12,7 @@ a {
     width: 10rem;
     display: flex;
     justify-content: space-between;
+    align-self: start;
     transition: height 0.5s, width 0.5s;
     transition-delay: 0s, 0.75s;
     overflow: hidden;
