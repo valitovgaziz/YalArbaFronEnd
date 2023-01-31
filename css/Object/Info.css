@@ -1,4 +1,4 @@
-.info {
+.account_info {
     height: fit-content;
     min-height: 5rem;
     display: flex;
@@ -6,7 +6,7 @@
     flex-flow: column;
 }
 
-.info .nameObject, .rateObject, .typeObject, .stateObject,
+.account_info .nameObject, .rateObject, .typeObject, .stateObject,
 .dateStart, .dateEnd, .availabilityScore, .servicesObject,
 .workLoad, .geoPoint {
     margin: 0.3rem;

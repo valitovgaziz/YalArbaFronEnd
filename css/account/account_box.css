@@ -1,0 +1,39 @@
+
+.account_box {
+    width: 100%;
+    background: #5cbf2a;
+    display: flex;
+    flex-flow: row;
+}
+
+.account_box .image_account {
+    width: 30%;
+    height: fit-content;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+.account_box .image_account img {
+    width: 100%;
+    height: fit-content;
+}
+
+.account_box .account_info {
+    background: #54ffe9;
+    padding-left: 1rem;
+    width: 100%;
+}
+
+.account_name, .level, .phone, .email, .stateAccount {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+    border-bottom: 1px solid #555;
+    border-radius: 1rem;
+    padding: 0 0.5rem 0 0.5rem
+}
+
+.account_box .image_account {
+    position: relative;
+}

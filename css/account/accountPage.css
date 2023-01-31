@@ -5,13 +5,13 @@ html, body {
 }
 
 .account_page {
-    background: #5cbf2a;
     min-height: 90%;
     width: 90%;
     height: fit-content;
     display: flex;
     flex-flow: column;
     justify-content: space-between;
+    align-items: center;
 }
 
 .top_menu {
