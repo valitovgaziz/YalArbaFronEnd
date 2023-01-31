@@ -1,0 +1,25 @@
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+.account_page {
+    background: #5cbf2a;
+    min-height: 90%;
+    width: 90%;
+    height: fit-content;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+}
+
+.top_menu {
+    background: #54ffe9;
+    width: 100%;
+    max-height: 5rem;
+    display: flex;
+    justify-content: space-between;
+    height: fit-content;
+    margin: 0 0 2rem 0;
+}
