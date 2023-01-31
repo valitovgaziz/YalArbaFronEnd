@@ -2,11 +2,25 @@
 .control {
     width: 100%;
     display: flex;
-    flex-flow: row;
-    justify-content: space-around;
+    flex-flow: column;
+    justify-content: start;
     padding-top: 1rem;
 }
 
-.adminButton, .moderButton {
+.adminButton, .moderButton, .addObject {
+    width: 100%;
     display: flex;
+    flex-flow: row;
+}
+
+.adminButton {
+    justify-content: center;
+}
+
+.moderButton {
+    justify-content: end;
+}
+
+.addObject {
+    justify-content: start;
 }

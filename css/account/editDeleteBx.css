@@ -19,7 +19,16 @@
     margin: 0;
 }
 
-.accountObjects .object .short_info .short_description,
-.full_name_object {
-    padding-bottom: 0.5rem;
+.accountObjects .object .short_info .short_description {
+    display: flex;
+    flex-flow: column;
+    justify-content: start;
+}
+
+.accountObjects .object .short_info .short_description .full_name_object {
+    height: fit-content;
+}
+
+.accountObjects .object .short_info .short_description .type_object {
+    height: fit-content;
 }
