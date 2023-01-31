@@ -37,14 +37,3 @@
 .account_box .image_account {
     position: relative;
 }
-
-.control {
-    width: 100%;
-    display: flex;
-    flex-flow: row;
-    justify-content: space-around;
-}
-
-.adminButton, .moderButton {
-    display: none;
-}

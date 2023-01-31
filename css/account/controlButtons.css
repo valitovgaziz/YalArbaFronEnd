@@ -1,0 +1,12 @@
+
+.control {
+    width: 100%;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+    padding-top: 1rem;
+}
+
+.adminButton, .moderButton {
+    display: flex;
+}
