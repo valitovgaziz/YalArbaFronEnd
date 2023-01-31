@@ -4,7 +4,7 @@
     display: flex;
     flex-flow: column;
     justify-content: start;
-    padding-top: 1rem;
+    padding: 1rem 0 1rem 0;
 }
 
 .adminButton, .moderButton, .addObject {

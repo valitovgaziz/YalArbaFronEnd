@@ -27,3 +27,7 @@ html, body {
 .accountObjects {
     width: 100%;
 }
+
+.account_page .search {
+    margin: 0 0 1rem 0;
+}

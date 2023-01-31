@@ -3,32 +3,58 @@
     display: flex;
     flex-flow: row;
     height: 6rem;
-    background: #54ffe9;
     margin: 0 0 1rem 0;
+    overflow: hidden;
+    border: 1px solid #555;
+    border-radius: 1rem;
 }
 
 .editDeleteBx .editDeleteButton {
-    padding: 1rem;
+    padding: 0.5rem;
     display: flex;
     flex-flow: column;
-    justify-content: space-around;
-    align-items: center;
+    justify-content: space-between;
+    align-items: start;
+}
+
+
+
+.editButton, .deleteButton {
+    width: 100%;
+    border: none;
+    border-radius: 1rem;
+    height: fit-content;
+    padding: 0.6rem;
+    margin: 0;
+    cursor: pointer;
+    background: #f5af63;
+    box-shadow: 2px 2px 2px 2px rgba(175, 175, 175, 0.71);
+}
+
+.editButton:hover, .deleteButton:hover {
+    background: #ff7777;
 }
 
 .editDeleteBx .object {
     margin: 0;
+    border: none;
+    border-radius: 0;
+    border-left: 1px solid #555;
+    padding-left: 0.5rem;
+}
+
+.accountObjects .object .short_info {
+    width: 100%;
 }
 
 .accountObjects .object .short_info .short_description {
+    width: 100%;
+    height: 2rem;
     display: flex;
-    flex-flow: column;
-    justify-content: start;
+    flex-flow: row;
+    justify-content: space-evenly;
 }
 
-.accountObjects .object .short_info .short_description .full_name_object {
-    height: fit-content;
-}
-
-.accountObjects .object .short_info .short_description .type_object {
-    height: fit-content;
+.editDeleteBx .object:hover {
+    box-shadow: none;
 }

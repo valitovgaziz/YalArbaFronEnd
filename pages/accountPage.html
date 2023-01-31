@@ -11,6 +11,8 @@
     <link rel="stylesheet" href="../css/account/controlButtons.css">
     <link rel="stylesheet" href="../css/account/editDeleteBx.css">
     <link rel="stylesheet" href="../css/object.css">
+    <link rel="stylesheet" href="../css/searchRow.css">
+    <link rel="shortcut icon" href="../images/LogoSVG.svg" type="image/png">
     <script src="../jsFiles/accountJS.js"></script>
 </head>
 <body>
@@ -110,25 +112,34 @@
             </a>
         </div>
     </div>
+    <div class="search">
+        <form action="#" id="search_form" name="search_request" target="_self">
+            <label for="search_input">Поиск по объектам аккаунта</label>
+            <input id="search_input"
+                   type="text"
+                   autofocus
+                   placeholder=".   .   .">
+        </form>
+    </div>
     <div class="accountObjects">
         <div class="editDeleteBx">
             <div class="editDeleteButton">
-                <button type="submit">Редактировать</button>
-                <button type="submit">Удалить</button>
+                <button class="editButton" type="submit">Редактировать</button>
+                <button class="deleteButton" type="submit">Удалить</button>
             </div>
             <div class="object">
                 <a class="object_link" href="../pages/objectPage.html">
                     <div class="short_info">
                         <div class="short_description">
-                            <span class="full_name_object">Уфа</span>
-                            <span class="type_object">город</span>
+                            <p class="full_name_object">Уфа</p>
+                            <p class="type_object">город</p>
                         </div>
                         <div class="list_services">
-                        <span>
+                        <p>
                             бассейн тюбинг каток прокат-лыж кафе туалет сувенирная-лавка книжный-магазин хостел
                             объект-культурного-наследия магазин-продуктовый кинотеатр аллея пруд пляж прокат-велосипедов
                             экскурсия-по-реке
-                        </span>
+                        </p>
                         </div>
                     </div>
                     <div class="object_image">
