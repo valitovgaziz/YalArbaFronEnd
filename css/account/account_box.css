@@ -1,7 +1,6 @@
 
 .account_box {
     width: 100%;
-    background: #5cbf2a;
     display: flex;
     flex-flow: row;
 }
@@ -12,6 +11,8 @@
     display: flex;
     flex-flow: column;
     align-items: center;
+    border-right: 1px solid #555;
+    padding-right: 1rem;
 }
 
 .account_box .image_account img {
@@ -20,7 +21,6 @@
 }
 
 .account_box .account_info {
-    background: #54ffe9;
     padding-left: 1rem;
     width: 100%;
 }
@@ -36,4 +36,15 @@
 
 .account_box .image_account {
     position: relative;
+}
+
+.control {
+    width: 100%;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+}
+
+.adminButton, .moderButton {
+    display: none;
 }
