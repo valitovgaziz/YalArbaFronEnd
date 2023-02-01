@@ -1,21 +1,21 @@
 document.querySelector('.bottom').innerHTML = '\
   <div id="about_ass">\
-    <a href="pages/about.html">\
+    <a href="HTML/about.html">\
       <p>О нас</p>\
     </a>\
   </div>\
   <div>\
-    <a href="pages/vacation.html">\
+    <a href="HTML/vacation.html">\
       <p>Вакансии</p>\
     </a>\
   </div>\
   <div>\
-    <a href="pages/requisites.html">\
+    <a href="HTML/requisites.html">\
       <p>Реквизиты</p>\
     </a>\
   </div>\
   <div>\
-    <a href="pages/contacts.html">\
+    <a href="HTML/contacts.html">\
       <p>Контакты</p>\
     </a>\
   </div>'

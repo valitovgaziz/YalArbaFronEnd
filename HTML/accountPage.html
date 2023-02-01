@@ -12,12 +12,13 @@
     <link rel="stylesheet" href="../css/account/editDeleteBx.css">
     <link rel="stylesheet" href="../css/object.css">
     <link rel="stylesheet" href="../css/searchRow.css">
+    <link rel="stylesheet" href="../css/bottom.css">
     <link rel="shortcut icon" href="../images/LogoSVG.svg" type="image/png">
     <script src="../jsFiles/accountJS.js"></script>
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </head>
-<body>
+<body path="relative">
 <div class="account_page">
     <div class="top_menu">
         <div>
@@ -28,37 +29,7 @@
             </a>
         </div>
         <div class="navigation">
-            <div class="userBX">
-                <div class="imgUser">
-                    <img src="../images/profile.png" alt="GazizFoto">
-                </div>
-                <p class="userName">Имя (логин)</p>
-            </div>
-            <div class="menuToggle"></div>
-            <div class="main_menu">
-                <ul class="menu_ul">
-                    <li><a href="../pages/accountPage.html">
-                        <ion-icon name="person-outline"></ion-icon>
-                        Аккаунт
-                    </a></li>
-                    <li><a href="#">
-                        <ion-icon name="log-in-outline"></ion-icon>
-                        Войти
-                    </a></li>
-                    <li><a href="#">
-                        <ion-icon name="person-add-outline"></ion-icon>
-                        Регистрация
-                    </a></li>
-                    <li><a href="#">
-                        <ion-icon name="help-outline"></ion-icon>
-                        Написать в тех поддержку
-                    </a></li>
-                    <li><a href="#">
-                        <ion-icon name="log-out-outline"></ion-icon>
-                        Выйти
-                    </a></li>
-                </ul>
-            </div>
+            <script src="../jsFiles/components/navigation.js"></script>
         </div>
     </div>
     <div class="account_box">
@@ -130,7 +101,7 @@
                 <button class="deleteButton" type="submit">Удалить</button>
             </div>
             <div class="object">
-                <a class="object_link" href="../pages/objectPage.html">
+                <a class="object_link" href="/objectPage.html">
                     <div class="short_info">
                         <div class="short_description">
                             <p class="full_name_object">Уфа</p>
@@ -150,6 +121,9 @@
                 </a>
             </div>
         </div>
+    </div>
+    <div class="bottom">
+        <script src="../jsFiles/components/bottom.js"></script>
     </div>
 </div>
 </body>

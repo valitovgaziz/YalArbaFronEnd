@@ -19,48 +19,18 @@
 </head>
 <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
 <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-<body>
+<body path="relative">
 <div class="object_main_page_div">
     <div class="menu_in_object_page">
         <div class="back_to_result_button">
-            <a href="../pages/searchResult.html">
+            <a href="searchResult.html">
                 <div class="_back_button">
                     Обратно
                 </div>
             </a>
         </div>
         <div class="navigation">
-            <div class="userBX">
-                <div class="imgUser">
-                    <img src="../images/profile.png" alt="Photo">
-                </div>
-                <p class="userName">Имя (логин)</p>
-            </div>
-            <div class="menuToggle"></div>
-            <div class="main_menu">
-                <ul class="menu_ul">
-                    <li><a href="../pages/accountPage.html">
-                        <ion-icon name="person-outline"></ion-icon>
-                        Аккаунт
-                    </a></li>
-                    <li><a href="#">
-                        <ion-icon name="log-in-outline"></ion-icon>
-                        Войти
-                    </a></li>
-                    <li><a href="#">
-                        <ion-icon name="person-add-outline"></ion-icon>
-                        Регистрация
-                    </a></li>
-                    <li><a href="#">
-                        <ion-icon name="help-outline"></ion-icon>
-                        Написать в тех поддержку
-                    </a></li>
-                    <li><a href="#">
-                        <ion-icon name="log-out-outline"></ion-icon>
-                        Выйти
-                    </a></li>
-                </ul>
-            </div>
+            <script src="../jsFiles/components/navigation.js"></script>
         </div>
     </div>
     <div class="object_page_middle_info">
@@ -150,6 +120,9 @@
                 </p>
             </div>
         </div>
+    </div>
+    <div class="bottom">
+        <script src="../jsFiles/components/bottom.js"></script>
     </div>
 </div>
 </body>

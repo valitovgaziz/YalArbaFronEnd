@@ -12,11 +12,11 @@
     <script src="jsFiles/index.js"></script>
     <script src="jsFiles/dropDownMenu.js"></script>
     <link rel="shortcut icon" href="images/LogoSVG.svg" type="image/png">
-    <link id="bottom" rel="import" href="pages/HTML_src/bottom.html">
+    <link id="bottom" rel="import" href="HTML/components/bottom.html">
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </head>
-<body>
+<body path="absolute">
 <div class="index_page">
     <div class="top">
         <div class="yalArba">
@@ -26,43 +26,13 @@
             <img id="arba" src="images/arba.png" alt="arba">
         </div>
         <div class="navigation">
-            <div class="userBX">
-                <div class="imgUser">
-                    <img src="images/profile.png" alt="GazizFoto">
-                </div>
-                <p class="userName">Имя (логин)</p>
-            </div>
-            <div class="menuToggle"></div>
-            <div class="main_menu">
-                <ul class="menu_ul">
-                    <li><a href="pages/accountPage.html">
-                        <ion-icon name="person-outline"></ion-icon>
-                        Аккаунт
-                    </a></li>
-                    <li><a href="#">
-                        <ion-icon name="log-in-outline"></ion-icon>
-                        Войти
-                    </a></li>
-                    <li><a href="#">
-                        <ion-icon name="person-add-outline"></ion-icon>
-                        Регистрация
-                    </a></li>
-                    <li><a href="#">
-                        <ion-icon name="help-outline"></ion-icon>
-                        Написать в тех поддержку
-                    </a></li>
-                    <li><a href="#">
-                        <ion-icon name="log-out-outline"></ion-icon>
-                        Выйти
-                    </a></li>
-                </ul>
-            </div>
+            <script async src="jsFiles/components/navigation.js"></script>
         </div>
     </div>
     <div class="middle">
         <div class="search">
-            <form action="pages/searchResult.html" id="search_form">
-                <label for="search_input">Введите вид желаемого отдыха</label>
+            <form action="HTML/searchResult.html" id="search_form" name="search_request" target="_self">
+                <label for="search_input">Введите желаемый вид отдыха</label>
                 <input id="search_input"
                        type="text"
                        autofocus
@@ -76,7 +46,7 @@
         </div>
     </div>
     <div class="bottom">
-        <script src="jsFiles/bottom.js"></script>
+        <script async src="jsFiles/components/bottom.js"></script>
     </div>
 </div>
 </body>
