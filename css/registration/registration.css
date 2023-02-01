@@ -1,0 +1,77 @@
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+label {
+    padding: 0;
+    margin: 0;
+}
+
+.registration_page {
+    min-height: 90%;
+    min-width: fit-content;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+}
+
+.registration_form {
+    padding: 1rem;
+    border: 1px solid #555;
+    border-radius: 2rem;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 30rem;
+    max-height: fit-content;
+    min-width: 20rem;
+    width: fit-content;
+}
+
+.regDivInput {
+    display: flex;
+    flex-flow: column;
+    justify-content: start;
+    align-items: center;
+    width: 100%;
+    border-left: 1px solid #555;
+    border-radius: 1rem;
+}
+
+.regDivInput label {
+    padding-left: 1rem;
+    align-self: start;
+}
+
+.regInput {
+    font-size: 1.5rem;
+    height: 3rem;
+    width: 80%;
+    border-radius: 1rem;
+    border: none;
+    border-bottom: 1px solid #555;
+    padding-left: 1rem;
+}
+
+.regInput:focus {
+    -webkit-box-shadow: 1px 1px 5px 3px rgba(162, 223, 215, 0.4);
+    -moz-box-shadow: 1px 1px 5px 3px rgba(162, 223, 215, 0.4);
+    box-shadow: 1px 1px 5px 3px rgba(162, 223, 215, 0.4);
+}
+
+.regButton {
+    border: none;
+    width: 50%;
+    cursor: pointer;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+.regButton:hover {
+
+}

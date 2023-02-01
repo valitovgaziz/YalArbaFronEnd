@@ -28,7 +28,7 @@ document.querySelector('.navigation')
     '                        <ion-icon name="log-in-outline"></ion-icon>\n' +
     '                        Войти\n' +
     '                    </a></li>\n' +
-    '                    <li><a href="#">\n' +
+    '                    <li><a href="' + getPrefix() + 'HTML/registrationPage.html">\n' +
     '                        <ion-icon name="person-add-outline"></ion-icon>\n' +
     '                        Регистрация\n' +
     '                    </a></li>\n' +

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Registration</title>
+    <link rel="stylesheet" href="../css/general_CSS.css">
+    <link rel="stylesheet" href="../css/registration/registration.css">
+    <link rel="stylesheet" href="../css/registration/input.css">
+    <link rel="shortcut icon" href="../images/LogoSVG.svg" type="image/svg">
+</head>
+<body>
+<div class="registration_page">
+    <form class="registration_form" action="#">
+        <div class="regDivInput">
+            <label for="login">Имя (Логин)</label>
+            <input
+                    id="login"
+                    class="login regInput"
+                    type="text"
+                    placeholder=".  .   ."
+            >
+        </div>
+        <div class="regDivInput">
+            <label for="email">Электронная почта</label>
+            <input
+                    id="email"
+                    class="email regInput"
+                    type="email"
+                    placeholder=".  .   ."
+            >
+        </div>
+        <div class="regDivInput">
+            <label for="phone">Номер телефона</label>
+            <input
+                    id="phone"
+                    class="phoneNumber regInput"
+                    type="tel"
+                    placeholder=".  .   ."
+                    name="phone"
+                    value="+7(***)***-**-**"
+                    pattern="+7([0-9]{3})[0-9]{3}-[0-9]{2}-[0-9]{2}"
+            >
+        </div>
+        <div class="regDivInput">
+            <label for="pin">Пин код из СМС</label>
+            <input
+                    id="pin"
+                    class="pin regInput"
+                    type="password"
+                    placeholder=".  .   ."
+            >
+        </div>
+        <button class="regButton" type="submit">Зарегистрировать</button>
+    </form>
+</div>
+</body>
+</html>
