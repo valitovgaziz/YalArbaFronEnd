@@ -23,3 +23,55 @@ html, body {
     justify-content: space-between;
     align-items: center;
 }
+
+.middle {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.middle .authForm {
+    height: fit-content;
+    padding: 1rem 0 1rem 0;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+    align-content: center;
+}
+
+.authInputs {
+    padding: 1rem 0 1rem 0;
+    height: fit-content;
+    width: fit-content;
+}
+
+.authInputs input {
+    min-width: 15rem;
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    border: 1px solid #555;
+    border-radius: 2rem;
+    height: 3rem;
+    padding-left: 1rem;
+    font-size: 1.3rem;
+}
+
+.introButton {
+    width: 5rem;
+    background: #54ffe9;
+    border: none;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    border-radius: 1rem;
+    -webkit-box-shadow: 5px 5px 8px 2px rgba(91, 199, 141, 0.35);
+    -moz-box-shadow: 5px 5px 8px 2px rgba(91, 199, 141, 0.35);
+    box-shadow: 5px 5px 8px 2px rgba(91, 199, 141, 0.35);
+}
+
+.introButton:active {
+    position: relative;
+    top: 1px;
+}
