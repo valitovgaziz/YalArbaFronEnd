@@ -7,7 +7,7 @@
     padding: 2rem 0 2rem 0;
 }
 
-.bottom div {
+.bottom div div {
     height: fit-content;
     border-bottom: 1px solid #798c62;
     padding: 0 1rem 0 1rem;
