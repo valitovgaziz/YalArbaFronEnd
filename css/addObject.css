@@ -4,7 +4,7 @@
     flex-flow: column;
     justify-content: space-between;
     align-items: center;
-    background: #54ffe9;
+    border: 1px solid #555;
     min-height: 90vh;
     height: fit-content;
 }
@@ -29,17 +29,47 @@
 }
 
 .addObjectForm {
-    background: #dffcc6;
+    width: 100%;
     display: flex;
-    flex-flow: column;
+    flex-flow: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 .addObjectBox {
-    margin: 1rem;
+    width: fit-content;
+    padding: 0.5rem;
+    border-radius: 1rem;
+    margin: 0.5rem;
     display: flex;
     flex-flow: column;
+    background: #b0eae5;
 }
 
-.addObjectBox {
-    font-size: 1rem;
+.inputBox {
+
+}
+
+.saveWrap {
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    height: 3rem;
+}
+
+.saveButton {
+    border: none;
+    background: #5bee81;
+    border-radius: 2rem;
+    padding: 0.5rem;
+    -webkit-box-shadow: 7px 7px 9px 7px rgba(143, 249, 174, 0.29);
+    -moz-box-shadow: 7px 7px 9px 7px rgba(143, 249, 174, 0.29);
+    box-shadow: 7px 7px 9px 7px rgba(143, 249, 174, 0.29);
+}
+
+.saveButton:active {
+    position: relative;
+    top: 1px;
 }
