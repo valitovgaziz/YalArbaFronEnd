@@ -1,0 +1,45 @@
+
+.addObjectPage {
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    align-items: center;
+    background: #54ffe9;
+    min-height: 90vh;
+    height: fit-content;
+}
+
+.top_menu {
+    width: 80%;
+    padding-bottom: 1rem;
+    height: 5rem;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.middle {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-evenly;
+    align-items: start;
+}
+
+.addObjectForm {
+    background: #dffcc6;
+    display: flex;
+    flex-flow: column;
+}
+
+.addObjectBox {
+    margin: 1rem;
+    display: flex;
+    flex-flow: column;
+}
+
+.addObjectBox {
+    font-size: 1rem;
+}
