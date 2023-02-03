@@ -63,8 +63,14 @@
     align-self: center;
 }
 
+.dataObject {
+    width: 100%;
+}
+
 .addObjectBox input {
     height: 2rem;
+    border-radius: 1rem;
+    padding-left: 1rem;
 }
 
 .radioButtons label {
