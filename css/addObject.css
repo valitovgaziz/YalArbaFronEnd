@@ -28,6 +28,18 @@
     align-items: start;
 }
 
+.userName {
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.userName h2 {
+    width: fit-content;
+}
+
 .addObjectForm {
     width: 100%;
     display: flex;
@@ -43,11 +55,26 @@
     margin: 0.5rem;
     display: flex;
     flex-flow: column;
-    background: #b0eae5;
+    justify-content: space-between;
+    background: #e3f5f3;
 }
 
-.inputBox {
+.addObjectBox h3 {
+    align-self: center;
+}
 
+.addObjectBox input {
+    height: 2rem;
+}
+
+.radioButtons label {
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+}
+
+.radioButtons label span {
+    padding-left: 1rem;
 }
 
 .saveWrap {

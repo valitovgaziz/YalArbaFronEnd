@@ -31,15 +31,31 @@
     </div>
 
     <div class="middle">
+
+        <div class="userName">
+            <h2>Имя (логин) пользователя.</h2>
+        </div>
+
         <form action="accountPage.html" class="addObjectForm">
             <div class="addObjectBox">
+                
                 <h3>Контактны представителя</h3>
-                <label for="contactPersonFIOid">Фамилия Имя Отчество</label>
-                <input type="text" name="contactPersonFIO" id="contactPersonFIOid">
+                
+                <label for="surNameId">Фамилия</label>
+                <input type="text" name="surName" id="surNameId">
+
+                <label for="nameId">Имя</label>
+                <input type="text" name="name" id="nameId">
+                
                 <label for="contactPersonTelId">Телефонный номер</label>
                 <input type="tel" name="contactPersonTel" id="contactPersonTelId">
+                
                 <label for="contactPersonEmail">Электронная почта</label>
                 <input type="email" name="contactPersonEmail" id="contactPersonEmail">
+
+                <label for="telegramNickNameId">Имя в телеграм мессенджере</label>
+                <input type="text" name="telegramNickName" id="telegramNickNameId">
+                
             </div>
 
             <div class="addObjectBox">
@@ -69,33 +85,31 @@
                 <input type="file" name="photoFile" id="photoFileId">
             </div>
 
-            <div class="addObjectBox">
+            <div class="addObjectBox radioButtons">
                 <h3>Доступность для людей<br/>с ограниченными возможностями</h3>
 
-                <p>Отметить одну или несколько.</p>
-
                 <label for="wheelCharUserId">
-                    <input type="radio" name="wheelChairUser" id="wheelCharUserId">
-                    для передвигающихся на креслах-колясках
+                    <input type="checkbox" name="wheelChairUser" id="wheelCharUserId">
+                    <span>для передвигающихся на креслах-колясках</span>
                 </label>
                 <label for="hearingImpairedId">
-                    <input type="radio" name="hearingImpaired" id="hearingImpairedId">
-                    с нарушениями слуха
+                    <input type="checkbox" name="hearingImpaired" id="hearingImpairedId">
+                    <span>с нарушениями слуха</span>
                 </label>
 
                 <label for="visuallyImpairedId">
-                    <input type="radio" name="visuallyImpaired" id="visuallyImpairedId">
-                    с нарушениями зрения
+                    <input type="checkbox" name="visuallyImpaired" id="visuallyImpairedId">
+                    <span>с нарушениями зрения</span>
                 </label>
 
                 <label for="musculoskeletalImpairedId">
-                    <input type="radio" name="musculoskeletalImpaired" id="musculoskeletalImpairedId">
-                    c нарушениями опорно-двигательного аппарата
+                    <input type="checkbox" name="musculoskeletalImpaired" id="musculoskeletalImpairedId">
+                    <span>c нарушениями опорно-двигательного аппарата</span>
                 </label>
 
                 <label for="mentalDisabilitiesId">
-                    <input type="radio" name="mentalDisabilities" id="mentalDisabilitiesId">
-                    c умственными нарушениями
+                    <input type="checkbox" name="mentalDisabilities" id="mentalDisabilitiesId">
+                    <span>c умственными нарушениями</span>
                 </label>
 
             </div>
