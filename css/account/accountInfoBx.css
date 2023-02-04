@@ -37,3 +37,12 @@
 .account_box .image_account {
     position: relative;
 }
+
+
+.deleteSubForm {
+    position: absolute;
+    visibility: hidden;
+    background: #54ffe9;
+    width: 20rem;
+    height: 20rem;
+}

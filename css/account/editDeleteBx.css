@@ -35,6 +35,11 @@
     background: #ff7777;
 }
 
+button:active {
+    position:relative;
+    top:1px;
+}
+
 .editDeleteBx .object {
     margin: 0;
     border: none;
@@ -58,3 +63,4 @@
 .editDeleteBx .object:hover {
     box-shadow: none;
 }
+
