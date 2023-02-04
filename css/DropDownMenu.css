@@ -1,6 +1,8 @@
+
 a {
     text-decoration: none;
 }
+
 
 .navigation {
     position: relative;
@@ -70,6 +72,10 @@ a {
     object-fit: cover;
 }
 
+.navigation .userBX .userName {
+    visibility: hidden;
+}
+
 .navigation .menuToggle {
     position: relative;
     width: 5rem;
@@ -108,6 +114,10 @@ a {
 
 .navigation.active .menuToggle::after {
     transform: translateY(0px) rotate(-45deg);
+}
+
+.navigation.active .userBX .userName {
+    visibility: visible;
 }
 
 .main_menu {
