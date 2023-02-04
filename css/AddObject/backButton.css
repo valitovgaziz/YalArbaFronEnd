@@ -1,0 +1,11 @@
+.backButton {
+    border: none;
+    background: #befdf4;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+.button:active {
+    position:relative;
+    top:1px;
+}
