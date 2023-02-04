@@ -22,8 +22,8 @@ a {
 }
 
 .navigation.active {
-    width: 25rem;
-    height: 20rem;
+    width: 20rem;
+    height: 28rem;
     transition: width 0.5s, height 0.5s;
     transition-delay: 0s, 0.75s;
 }
@@ -50,6 +50,10 @@ a {
     white-space: nowrap;
     height: fit-content;
     padding: 0 0 0 1rem;
+}
+
+.navigation.active .userBX .userName {
+    visibility: visible;
 }
 
 .navigation .userBX .imgUser {
@@ -116,22 +120,20 @@ a {
     transform: translateY(0px) rotate(-45deg);
 }
 
-.navigation.active .userBX .userName {
-    visibility: visible;
-}
 
-.main_menu {
+.navigation .main_menu {
     position: absolute;
     width: 100%;
-    height: fit-content;
-    margin: 5rem 0 0 0;
+    height: 100%;
+    margin: 5rem auto 0 auto;
     padding: 1rem 0 0 1rem;
 }
 
 .menu_ul li {
-    height: 1.5rem;
+    height: fit-content;
     font-size: 1.5rem;
     list-style: none;
+    gap: 1rem;
     margin: 1rem;
 }
 
