@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="../css/object.css">
     <link rel="stylesheet" href="../css/searchRow.css">
     <link rel="stylesheet" href="../css/bottom.css">
+    <link rel="stylesheet" href="../css/account/modalWindow.css">
     <link rel="shortcut icon" href="../images/LogoSVG.svg" type="image/png">
     <script src="../jsFiles/accountJS.js"></script>
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
@@ -99,6 +100,13 @@
             <div class="editDeleteButton">
                 <button class="editButton button" type="submit">Редактировать</button>
                 <button class="deleteButton button" type="submit">Удалить</button>
+                <dialog class="dialog">
+                    <form action="accountPage.html" method="post">
+                        <input type="tel" name="phone" id="phoneId" value="8(888)888-88-88">
+                        <input type="password">
+                        <input type="button" value="Удалить" id="dialogDeleteButton">
+                    </form>
+                </dialog>
             </div>
             <div class="object">
                 <a class="object_link" href="/objectPage.html">
@@ -119,9 +127,6 @@
                         <img src="../images/Ufa.jpg" alt="Photo">
                     </div>
                 </a>
-            </div>
-            <div class="deleteSubForm">
-                <p>asdfasdf</p>
             </div>
         </div>
     </div>

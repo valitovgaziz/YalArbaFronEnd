@@ -1,7 +1,11 @@
 window.onload = function () {
 
+    let dialog = document.querySelector('.dialog');
     let menuToggle = document.querySelector('.menuToggle');
     let navigation = document.querySelector('.navigation');
+
+    dialog.visibility = 'hidden';
+
     menuToggle.onclick = function () {
         navigation.classList.toggle('active');
     }
@@ -12,14 +16,20 @@ window.onload = function () {
         });
 
     document.querySelector('.deleteButton')
+
+
         .addEventListener('click', function () {
-            let deleteButton = document.querySelector('.deleteSubForm');
 
-            alert(deleteButton.getAttribute('visibility'));
+            dialog.showModal();
 
-            deleteButton.setAttribute('visibility', 'visible');
+        });
 
-            deleteButton.visibility = 'visible';
+    document.querySelector('#dialogDeleteButton')
+        .addEventListener('click', function () {
+            dialog.setAttribute('display', 'none');
+            dialog.setAttribute('visibility', 'hidden');
+            dialog.close();
+
         });
 
 }
