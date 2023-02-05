@@ -14,3 +14,36 @@
 th, tr, thead, td {
     border: 1px solid #555;
 }
+
+.dialog {
+    border-radius: 2rem;
+    justify-self: center;
+    align-self: center;
+}
+
+.inputsBx {
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.dialog .inputsBx input {
+    background: #f3b9b9;
+    width: fit-content;
+    height: fit-content;
+    padding: 0.5rem;
+    margin: 0.5rem;
+    border: 1px solid #555;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+
+.dialog .inputsBx input:hover {
+    background: #f56e95;
+}
+
+.dialog .inputsBx input:active {
+    position:relative;
+    top:1px;
+}

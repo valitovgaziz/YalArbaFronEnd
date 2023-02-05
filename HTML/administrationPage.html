@@ -18,6 +18,7 @@
     <title>AdminPage</title>
 </head>
 <body path="relative">
+
 <div class="admin_page">
 
     <div class="top_menu">
@@ -99,10 +100,6 @@
                 <td>Юзер</td>
                 <td>Верифицирован</td>
                 <td><input class="editButton" type="button" value="Редактировать"></td>
-                <dialog class="dialog">
-                    <input class="verifyButton" type="button" value="Верифицировать">
-                    <input class="deleteButton" type="button" value="Удалить">
-                </dialog>
             </tr>
             <tr>
                 <td><span>Имя (логин)</span></td>
@@ -110,11 +107,16 @@
                 <td>Юзер</td>
                 <td>Верифицирован</td>
                 <td><input class="editButton" type="button" value="Редактировать"></td>
-                <dialog class="dialog">
-                    <input class="verifyButton" type="button" value="Верифицировать">
-                    <input class="deleteButton" type="button" value="Удалить">
-                </dialog>
             </tr>
+            <dialog class="dialog">
+                <div class="inputsBx">
+                    <input class="verifyButton" type="button" value="Верифицировать">
+                    <input class="banButton" type="button" value="Забанить">
+                    <input class="unBanButton" type="button" value="Разбанить">
+                    <input class="deleteButton" type="button" value="Удалить">
+                    <input class="cancel" type="button" value="Отмена">
+                </div>
+            </dialog>
             </tbody>
 
         </table>

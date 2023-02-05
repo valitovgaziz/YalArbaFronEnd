@@ -1,0 +1,20 @@
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+.moderating_page {
+    min-height: 90vh;
+    height: fit-content;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+}
+
+.top_menu {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 5rem;
+}
