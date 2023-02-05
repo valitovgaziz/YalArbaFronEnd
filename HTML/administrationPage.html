@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../css/Administrator/administration.css">
+    <link rel="stylesheet" href="../css/general_CSS.css">
+    <link rel="stylesheet" href="../css/bottom.css">
+    <link rel="stylesheet" href="../css/DropDownMenu.css">
+    <link rel="stylesheet" href="../css/GreenButton.css">
+    <link rel="stylesheet" href="../css/Administrator/table.css">
+    <link rel="stylesheet" href="../css/searchRow.css">
+    <script src="../jsFiles/components/dropDownMenu.js"></script>
+    <link rel="shortcut icon" href="../images/LogoSVG.svg" type="image/svg">
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <title>AdminPage</title>
+</head>
+<body path="relative">
+<div class="admin_page">
+
+    <div class="top_menu">
+        <div class="onMainButton">
+            <a href="../index.html">
+                <div class="_back_button">
+                    На главную
+                </div>
+            </a>
+        </div>
+        <div class="back_accountPage">
+
+        </div>
+        <div class="navigation">
+            <script src="../jsFiles/components/navigation.js"></script>
+        </div>
+    </div>
+
+    <div class="account_info">
+        <h2>Имя (логин) администратора</h2>
+        <p>Телефон: 8 (888) 888 - 88 - 88</p>
+    </div>
+
+    <div class="search">
+        <form action="searchResult.html" id="search_form" name="search_request" target="_self">
+            <label for="search_input">Поиск по телефону или имени аккаунта.</label>
+            <input id="search_input"
+                   type="text"
+                   autofocus
+                   placeholder=".   .   .">
+        </form>
+    </div>
+
+    <div class="search_settings">
+        <form action="#" method="get">
+            <label for="radioVerifying">
+                <input type="radio" name="radio" id="radioVerifying">
+                <p>Верифицированные</p>
+            </label>
+            <label for="radioNotVerifying">
+                <input type="radio" name="radio" id="radioNotVerifying">
+                <p>Не верифицированные</p>
+            </label>
+
+        </form>
+    </div>
+
+    <div class="table">
+        <table>
+
+            <thead>
+            <tr>
+                <th>
+                    Имя (логин)
+                </th>
+                <th>
+                    Номер телефона
+                </th>
+                <th>
+                    Роль
+                </th>
+                <th>
+                    Состояние
+                </th>
+                <th>
+                    Действия
+                </th>
+            </tr>
+            </thead>
+
+            <tbody>
+            <tr>
+                <td><span>Имя (логин)</span></td>
+                <td>Номер телефона</td>
+                <td>Юзер</td>
+                <td>Верифицирован</td>
+                <td><a href="editing.html">Редактировать</a></td>
+            </tr>
+            <tr>
+                <td><span>Имя (логин)</span></td>
+                <td>Номер телефона</td>
+                <td>Юзер</td>
+                <td>Верифицирован</td>
+                <td><a href="editing.html">Редактировать</a></td>
+            </tr>
+            </tbody>
+
+        </table>
+    </div>
+
+
+    <div class="bottom">
+        <script src="../jsFiles/components/bottom.js"></script>
+    </div>
+
+</div>
+</body>
+</html>
