@@ -22,20 +22,26 @@ html, body {
 }
 
 .account_info {
-    border: 1px solid #555;
+    align-self: start;
 }
 
-.search_settings {
-    border: 1px solid black;
-    border-radius: 1rem;
-    padding: 1rem;
+.verify_radio {
+    height: fit-content;
 }
 
-.search_settings form label {
+.verify_radio form {
     display: flex;
     flex-flow: row;
+    justify-content: space-between;
 }
 
-.search_settings form label p {
+.verify_radio form label {
+    display: flex;
+    flex-flow: row;
+    font-weight: 600;
+    background: #d3dc86;
+}
+
+.verify_radio form label p {
     padding-left: 1rem;
 }

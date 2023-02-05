@@ -9,7 +9,9 @@
     <link rel="stylesheet" href="../css/GreenButton.css">
     <link rel="stylesheet" href="../css/Administrator/table.css">
     <link rel="stylesheet" href="../css/searchRow.css">
+    <link rel="stylesheet" href="../css/backButton.css">
     <script src="../jsFiles/components/dropDownMenu.js"></script>
+    <script src="../jsFiles/administration.js"></script>
     <link rel="shortcut icon" href="../images/LogoSVG.svg" type="image/svg">
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
@@ -26,9 +28,13 @@
                 </div>
             </a>
         </div>
-        <div class="back_accountPage">
 
-        </div>
+        <a href="accountPage.html">
+            <div class="backButton">
+                Аккаунт
+            </div>
+        </a>
+
         <div class="navigation">
             <script src="../jsFiles/components/navigation.js"></script>
         </div>
@@ -41,7 +47,7 @@
 
     <div class="search">
         <form action="searchResult.html" id="search_form" name="search_request" target="_self">
-            <label for="search_input">Поиск по телефону или имени аккаунта.</label>
+            <label for="search_input"><p>Найти аккаунт</p></label>
             <input id="search_input"
                    type="text"
                    autofocus
@@ -49,23 +55,23 @@
         </form>
     </div>
 
-    <div class="search_settings">
-        <form action="#" method="get">
-            <label for="radioVerifying">
-                <input type="radio" name="radio" id="radioVerifying">
-                <p>Верифицированные</p>
-            </label>
-            <label for="radioNotVerifying">
-                <input type="radio" name="radio" id="radioNotVerifying">
-                <p>Не верифицированные</p>
-            </label>
 
-        </form>
-    </div>
 
     <div class="table">
+        <h2>Аккаунты</h2>
+        <div class="verify_radio">
+            <form action="#" method="get">
+                <label for="radioVerifying">
+                    <input type="radio" name="radio" id="radioVerifying">
+                    <p>Верифицированные</p>
+                </label>
+                <label for="radioNotVerifying">
+                    <input type="radio" name="radio" id="radioNotVerifying">
+                    <p>Не верифицированные</p>
+                </label>
+            </form>
+        </div>
         <table>
-
             <thead>
             <tr>
                 <th>
@@ -92,14 +98,22 @@
                 <td>Номер телефона</td>
                 <td>Юзер</td>
                 <td>Верифицирован</td>
-                <td><a href="editing.html">Редактировать</a></td>
+                <td><input class="editButton" type="button" value="Редактировать"></td>
+                <dialog class="dialog">
+                    <input class="verifyButton" type="button" value="Верифицировать">
+                    <input class="deleteButton" type="button" value="Удалить">
+                </dialog>
             </tr>
             <tr>
                 <td><span>Имя (логин)</span></td>
                 <td>Номер телефона</td>
                 <td>Юзер</td>
                 <td>Верифицирован</td>
-                <td><a href="editing.html">Редактировать</a></td>
+                <td><input class="editButton" type="button" value="Редактировать"></td>
+                <dialog class="dialog">
+                    <input class="verifyButton" type="button" value="Верифицировать">
+                    <input class="deleteButton" type="button" value="Удалить">
+                </dialog>
             </tr>
             </tbody>
 
