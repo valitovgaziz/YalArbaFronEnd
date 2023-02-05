@@ -18,3 +18,63 @@ html, body {
     align-items: center;
     height: 5rem;
 }
+
+.param_search {
+    width: 100%;
+    height: fit-content;
+    padding: 1rem 0 1rem 0;
+}
+
+.param_search form {
+    width: 100%;
+    height: available;
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.param_search form label {
+    display: flex;
+    width: fit-content;
+    height: fit-content;
+    flex-flow: row;
+    justify-content: space-between;
+}
+
+.param_search form label p {
+    padding: 0 0.5rem 0 0.5rem;
+}
+
+.showButton {
+    border: none;
+    background: #befdf4;
+    padding: 1rem;
+    margin: 1rem 0 1rem 0;
+    border-radius: 1rem;
+}
+
+.showButton:active {
+    position:relative;
+    top:1px;
+}
+
+.moderButton {
+    color: white;
+    font-weight: 700;
+    border: none;
+    background: #7a5d94;
+    padding: 1rem;
+    margin: 1rem 0 1rem 0;
+    border-radius: 1rem;
+}
+
+.moderButton:hover {
+    background: #563870;
+}
+
+.moderButton:active {
+    position: relative;
+    top: 1px;
+}

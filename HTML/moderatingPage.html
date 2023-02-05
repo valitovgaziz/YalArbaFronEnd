@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="../css/DropDownMenu.css">
     <link rel="stylesheet" href="../css/GreenButton.css">
     <link rel="stylesheet" href="../css/backButton.css">
+    <link rel="stylesheet" href="../css/searchRow.css">
+    <link rel="stylesheet" href="../css/moderating/moderating_table.css">
     <script src="../jsFiles/components/dropDownMenu.js"></script>
     <link rel="shortcut icon" href="../images/LogoSVG.svg" type="image/svg">
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
@@ -38,11 +40,64 @@
         </div>
     </div>
 
+    <div class="search">
+        <form action="searchResult.html" id="search_form" name="search_request" target="_self">
+            <label for="search_input">Поиск по обращениям.</label>
+            <input id="search_input"
+                   type="text"
+                   autofocus
+                   placeholder=".   .   .">
+        </form>
+    </div>
 
+    <div class="param_search">
+        <form action="#" id="param_search">
+            <label for="considered">
+                <input type="radio" name="param_search" id="considered">
+                <p>Рассмотренные</p>
+            </label>
+            <label for="nonConsidered">
+                <input type="radio" name="param_search" id="nonConsidered">
+                <p>Не рассмотренные</p>
+            </label>
+            <label for="fromTimeId">
+                <p>От</p>
+                <input type="datetime-local" name="fromTime" id="fromTimeId">
+            </label>
+            <label for="endTimeId">
+                <p>До</p>
+                <input type="datetime-local" name="endTime" id="endTimeId">
+            </label>
+            <input class="showButton" type="button" value="Показать">
+        </form>
+    </div>
+
+    <div class="appeal">
+        <table>
+            <tr>
+                <th>Тема</th>
+                <th>Номер телефона</th>
+                <th>Электронная почта</th>
+                <th>Дата и время обращения</th>
+                <th>Состояние</th>
+                <th>Кнопка "рассмотреть"</th>
+            </tr>
+            <tr>
+                <td>Не загружает фото</td>
+                <td>8 (888) 888 - 88 - 88</td>
+                <td>email@email.ru</td>
+                <td>30.05.2023 - 8.51</td>
+                <td>Не рассмотрено</td>
+                <td><input class="moderButton" type="button" value="Рассмотреть"></td>
+            </tr>
+        </table>
+    </div>
 
     <div class="bottom">
         <script src="../jsFiles/components/bottom.js"></script>
     </div>
+
+
 </div>
 </body>
 </html>

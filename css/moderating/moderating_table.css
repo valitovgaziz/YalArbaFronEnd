@@ -1,0 +1,17 @@
+.table {
+    width: 100%;
+}
+
+
+.appeal  table {
+    border: 1px solid #555;
+    border-collapse: collapse;
+    width: 100%;
+    height: fit-content;
+}
+
+th, tr, thead, td {
+    border: 1px solid #555;
+    text-align: center;
+}
+
