@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="../css/backButton.css">
   <link rel="shortcut icon" href="../images/LogoSVG.svg" type="image/svg">
   <link rel="stylesheet" href="../css/ConsiderAppeal/considerAppeal.css">
+  <script src="../jsFiles/considerAppeal.js"></script>
   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
   <script src="../jsFiles/components/dropDownMenu.js"></script>
@@ -26,9 +27,9 @@
       </a>
     </div>
 
-    <a href="accountPage.html">
+    <a href="moderatingPage.html">
       <div class="backButton">
-        Аккаунт
+        Стр модер
       </div>
     </a>
 
@@ -38,15 +39,48 @@
   </div>
 
   <div class="appeal_info">
-
+    <div class="theme">
+      <p>Тема обращения</p>
+      <p>Не могу зарегистрировать аккаунт.</p>
+    </div>
+    <div class="phone">
+      <p>Номер телефона</p>
+      <p>8 (888) 888 - 88 - 88</p>
+    </div>
+    <div class="email">
+      <p>Электронный адрес</p>
+      <p>email@email.ru</p>
+    </div>
+    <div class="dateTime">
+      <p>Дата и время обращения</p>
+      <p>01/01/2023 8.33</p>
+    </div>
+    <div class="stateAppeal">
+      <p>Состояние</p>
+      <p>Не рассмотрено</p>
+    </div>
   </div>
 
   <div class="appeal_text">
-
+    <h3>Текс обращения</h3>
+    <p>Современные технологии достигли такого уровня, что начало повседневной работы по формированию
+      позиции обеспечивает актуальность переосмысления внешнеэкономических политик. Каждый из нас
+      понимает очевидную вещь: высококачественный прототип будущего проекта создаёт предпосылки для
+      глубокомысленных рассуждений. Являясь всего лишь частью общей картины, действия представителей
+      оппозиции набирают популярность среди определенных слоев населения, а значит, должны быть
+      обнародованы. Кстати, реплицированные с зарубежных источников, современные исследования могут
+      быть превращены в посмешище, хотя само их существование приносит несомненную пользу обществу.
+      Но высококачественный прототип будущего проекта требует определения и уточнения позиций,
+      занимаемых участниками в отношении поставленных задач. Таким образом, граница обучения кадров
+      предполагает независимые способы реализации соответствующих условий активизации.</p>
   </div>
 
   <div class="response_text">
-
+    <h3>Ответ</h3>
+    <form action="../HTML/moderatingPage.html" method="post">
+      <textarea name="response" id="responseId"></textarea>
+      <input type="submit" value="Отправить" id="responseSendButton">
+    </form>
   </div>
 
   <div class="bottom">
