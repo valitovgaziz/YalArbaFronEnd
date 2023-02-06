@@ -1,0 +1,58 @@
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+.techSupportPage {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+}
+
+.top_menu {
+    height: 5rem;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.appealForm {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+}
+
+.appealForm label {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 1rem;
+    border-bottom: 1px solid #555;
+    padding: 0 1rem 0 1rem;
+}
+
+#labelTextAreaId {
+    display: flex;
+    flex-flow: column;
+    flex-direction: column;
+    height: fit-content;
+    border: none;
+}
+
+#textAreaId {
+    width: 100%;
+    height: 10rem;
+}
+
+#submitAppealButton {
+    width: fit-content;
+    align-self: center;
+    margin: 1rem;
+}
+

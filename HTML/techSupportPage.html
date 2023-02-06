@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="../css/TechSupport/techSupport.css">
+
+    <link rel="stylesheet" href="../css/general_CSS.css">
+    <link rel="stylesheet" href="../css/bottom.css">
+    <link rel="stylesheet" href="../css/DropDownMenu.css">
+    <link rel="stylesheet" href="../css/GreenButton.css">
+    <link rel="stylesheet" href="../css/backButton.css">
+    <link rel="shortcut icon" href="../images/LogoSVG.svg" type="image/svg">
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="../jsFiles/components/dropDownMenu.js"></script>
+    <meta charset="UTF-8">
+    <title>TechSupport</title>
+    <script src="../jsFiles/techSupport.js"></script>
+</head>
+<body path="relative">
+<div class="techSupportPage">
+
+    <div class="top_menu">
+        <div class="onMainButton">
+            <a href="../index.html">
+                <div class="_back_button">
+                    На главную
+                </div>
+            </a>
+        </div>
+
+        <div class="navigation">
+            <script src="../jsFiles/components/navigation.js"></script>
+        </div>
+    </div>
+
+    <div class="appealForm">
+        <label for="emailId">
+            <p>Электронная почта</p>
+            <input type="email" name="email" id="emailId" value="Email@email.ru">
+        </label>
+        <label for="telId">
+            <p>Телефонный номер</p>
+            <input type="tel" name="tel" id="telId" value="8 (888) 888 - 88 - 88">
+        </label>
+        <label for="themeId">
+            <p>Тема обращения</p>
+            <input type="text" name="theme" id="themeId" value="Не могу зарегистрироваться">
+        </label>
+        <label id="labelTextAreaId" for="textAreaId">
+            <p>Текст обращения</p>
+            <textarea name="textArea" id="textAreaId">
+                Приятно, граждане, наблюдать, как многие известные личности будут в равной
+                степени предоставлены сами себе. Следует отметить, что экономическая повестка
+                сегодняшнего дня играет определяющее значение для дальнейших направлений развития.
+                Есть над чем задуматься: базовые сценарии поведения пользователей объективно
+                рассмотрены соответствующими инстанциями. Предварительные выводы неутешительны:
+                консультация с широким активом не оставляет шанса для благоприятных перспектив.
+                Наше дело не так однозначно, как может показаться: синтетическое тестирование
+                требует от нас анализа распределения внутренних резервов и ресурсов. Значимость
+                этих проблем настолько очевидна, что базовый вектор развития играет определяющее
+                значение для прогресса профессионального сообщества. Наше дело не так однозначно,
+                как может показаться: внедрение современных методик однозначно фиксирует
+                необходимость существующих финансовых и административных условий.
+            </textarea>
+        </label>
+        <button id="submitAppealButton" type="submit">Отправить</button>
+
+        <dialog class="techSupportDialog">
+            <p>Введите пин код из смс</p>
+            <input type="password" name="pass" id="passId">
+            <input id="sendAppealButton" type="button" value="Отправить">
+        </dialog>
+
+    </div>
+
+    <div class="bottom">
+        <script src="../jsFiles/components/bottom.js"></script>
+    </div>
+
+</div>
+</body>
+</html>

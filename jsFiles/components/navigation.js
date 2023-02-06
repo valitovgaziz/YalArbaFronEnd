@@ -32,7 +32,7 @@ document.querySelector('.navigation')
     '                        <ion-icon name="person-add-outline"></ion-icon>\n' +
     '                        Регистрация\n' +
     '                    </a></li>\n' +
-    '                    <li><a href="#">\n' +
+    '                    <li><a href="' + getPrefix() + 'HTML/techSupportPage.html">\n' +
     '                        <ion-icon name="help-outline"></ion-icon>\n' +
     '                        Написать в тех поддержку\n' +
     '                    </a></li>\n' +
