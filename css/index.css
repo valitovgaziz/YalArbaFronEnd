@@ -49,8 +49,15 @@ html, body {
 }
 
 .addObject {
+    padding: 0.5rem;
+    border-radius: 1rem;
     position: relative;
     top: 10vh;
     width: fit-content;
     height: fit-content;
+    background: #d2fff9;
+}
+
+.addObject:hover {
+    background: #a0fff0;
 }

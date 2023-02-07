@@ -14,8 +14,13 @@
     border-radius: 1rem;
 }
 
+.bottom div div:hover {
+}
+
 .bottom div a {
-    color: #624f4f;
+    width: available;
+    height: available;
+    color: #7e5c5c;
 }
 
 .bottom div a:hover {

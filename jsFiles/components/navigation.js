@@ -36,7 +36,7 @@ document.querySelector('.navigation')
     '                        <ion-icon name="help-outline"></ion-icon>\n' +
     '                        Написать в тех поддержку\n' +
     '                    </a></li>\n' +
-    '                    <li><a href="#">\n' +
+    '                    <li><a href="' + getPrefix() + 'index.html">\n' +
     '                        <ion-icon name="log-out-outline"></ion-icon>\n' +
     '                        Выйти\n' +
     '                    </a></li>\n' +
