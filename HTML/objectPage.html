@@ -29,6 +29,9 @@
                 </div>
             </a>
         </div>
+
+
+
         <div class="navigation">
             <script src="../jsFiles/components/navigation.js"></script>
         </div>
@@ -37,6 +40,7 @@
         <div class="account_info">
             <div class="nameObject">
                 <h1 class="name_h1">Название объекта</h1>
+                <input type="button" value="Оставить отзыв" id="fitBackButton">
             </div>
             <div class="rateObject">
                 <p>Рейтинг объекта</p>
@@ -126,4 +130,14 @@
     </div>
 </div>
 </body>
+<dialog class="dialog">
+    <form action="#">
+        <h3>Имя (логин)</h3>
+        <label for="fitBackButton">
+            <p>Введите текс до 1000 знаков</p>
+            <textarea name="fitBackText" id="fitBackTextId" maxlength="1000" cols="60" rows="10"></textarea>
+        </label>
+        <input id="sendFitBackButton" type="button" value="Отправить">
+    </form>
+</dialog>
 </html>

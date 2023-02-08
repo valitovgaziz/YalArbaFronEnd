@@ -6,8 +6,18 @@ window.onload = function () {
         navigation.classList.toggle('active');
     }
 
+    let dialog = document.querySelector('.dialog');
+    let fitBackButton = document.querySelector('#fitBackButton');
+    let sendFitbackButton = document.querySelector('#sendFitBackButton');
 
+    fitBackButton.addEventListener('click', function () {
+        dialog.showModal();
+    })
 
+    sendFitbackButton.addEventListener('click', function () {
+        alert("Ваш отзыв сохранен и появиться после модерации.");
+        dialog.close();
+    })
 
 
 }
