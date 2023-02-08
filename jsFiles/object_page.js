@@ -7,7 +7,7 @@ window.onload = function () {
     }
 
     let dialog = document.querySelector('.dialog');
-    let fitBackButton = document.querySelector('#fitBackButton');
+    let fitBackButton = document.querySelector('.fitBackButton');
     let sendFitbackButton = document.querySelector('#sendFitBackButton');
 
     fitBackButton.addEventListener('click', function () {
@@ -18,6 +18,15 @@ window.onload = function () {
         alert("Ваш отзыв сохранен и появиться после модерации.");
         dialog.close();
     })
+
+
+    document.querySelector('.toAllFitBack').addEventListener(
+        'click',
+        function () {
+            window.location.href = 'fitBackPage.html';
+        }
+    );
+
 
 
 }

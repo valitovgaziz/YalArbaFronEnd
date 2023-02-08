@@ -1,0 +1,76 @@
+html, body {
+}
+
+.fitBackPage {
+    height: 100vh;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top_menu {
+    height: 5rem;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.object_info {
+    width: fit-content;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+    align-items: center;
+    background: #ff8b8b;
+    height: 3rem;
+    border-radius: 1rem;
+    padding: 1rem;
+}
+
+.object_info #object_name a {
+    color: black;
+}
+
+.object_info #object_name a:hover {
+    color: #65a8a6;
+}
+
+.object_info #object_photo {
+    width: 100%;
+}
+
+.fitBacks {
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+.fitBackBx {
+    width: 100%;
+    height: fit-content;
+    border: 1px solid #555;
+    border-top: none;
+    border-left: none;
+    border-radius: 1rem;
+    padding: 0 1rem 1rem 1rem;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+    align-items: center;
+    margin: 1rem 0 1rem 0;
+}
+
+.fitBackBxHead {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
