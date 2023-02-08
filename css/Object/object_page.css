@@ -34,18 +34,7 @@
     align-items: center;
 }
 
-.object_page_middle_info .nameObject #fitBackButton {
-    height: fit-content;
-    padding: 0.5rem;
-    border-radius: 1rem;
-    border: none;
-    background: #aed9fc;
-    cursor: pointer;
-}
 
-.object_page_middle_info .nameObject #fitBackButton:hover {
-    background: #89c9ff;
-}
 
 .price {
     display: flex;
@@ -72,3 +61,4 @@
     padding: 1rem;
     margin: 1rem;
 }
+

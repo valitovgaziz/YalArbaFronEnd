@@ -40,7 +40,6 @@
         <div class="account_info">
             <div class="nameObject">
                 <h1 class="name_h1">Название объекта</h1>
-                <input type="button" value="Оставить отзыв" id="fitBackButton">
             </div>
             <div class="rateObject">
                 <p>Рейтинг объекта</p>
@@ -113,9 +112,8 @@
                 От 3000 до 15 000 рублей в день или за услугу.
             </p>
         </div>
-        <div class="map">
-            <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A4ff1b10686a811bb2975d27293545bb51520dc931a9bd749c4011297fcef7afb&amp;source=constructor" width="100%" height="400" frameborder="0"></iframe>
-        </div>
+
+
         <div class="Fightback">
             <h3>Последний отзыв от UserName</h3>
             <div>
@@ -123,7 +121,19 @@
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam nec ipsum sit amet augue pellentesque suscipit a porttitor augue. Aenean pharetra felis in justo imperdiet blandit. Maecenas tincidunt, sapien quis sagittis luctus, augue mauris eleifend sapien, ut scelerisque dolor lorem vitae mauris.
                 </p>
             </div>
+            <div class="fitBackButtons">
+                <input type="button" value="Все отзывы" class="toAllFitBack">
+                <input type="button" value="Оставить отзыв" class="fitBackButton">
+            </div>
         </div>
+
+
+        <div class="map">
+            <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A4ff1b10686a811bb2975d27293545bb51520dc931a9bd749c4011297fcef7afb&amp;source=constructor" width="100%" height="400" frameborder="0"></iframe>
+        </div>
+
+
+
     </div>
     <div class="bottom">
         <script src="../jsFiles/components/bottom.js"></script>
@@ -133,7 +143,7 @@
 <dialog class="dialog">
     <form action="#">
         <h3>Имя (логин)</h3>
-        <label for="fitBackButton">
+        <label for="fitBackTextId">
             <p>Введите текс до 1000 знаков</p>
             <textarea name="fitBackText" id="fitBackTextId" maxlength="1000" cols="60" rows="10"></textarea>
         </label>

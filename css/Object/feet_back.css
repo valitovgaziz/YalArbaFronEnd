@@ -2,8 +2,40 @@
     display: flex;
     flex-flow: column;
     align-items: center;
+    margin: 1rem 0 1rem 0;
 }
 
 .Fightback h3 {
     width: fit-content;
+}
+
+.fitBackButtons {
+    width: 100%;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.fitBackButton, .toAllFitBack {
+    height: fit-content;
+    padding: 0.5rem;
+    border-radius: 1rem;
+    border: none;
+    background: #aed9fc;
+    cursor: pointer;
+    -webkit-box-shadow: 5px 5px 9px 5px rgba(70, 94, 86, 0.3);
+    -moz-box-shadow: 5px 5px 9px 5px rgba(70, 94, 86, 0.3);
+    box-shadow: 5px 5px 9px 5px rgba(70, 94, 86, 0.3);
+
+}
+
+.fitBackButton:hover, . .toAllFitBack:hover {
+    background: #89c9ff;
+
+}
+
+.fitBackButton:active, .toAllFitBack:active {
+    position: relative;
+    top: 1px;
 }
